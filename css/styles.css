@@ -1,0 +1,388 @@
+/*
+BATC Web Essentials
+Colors: #808080, #606061, #fff, #d4d4d4
+Font: font-family: 'Raleway', sans-serif
+
+*/
+
+								/*=================== GENERAL =====================*/
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+								/*====================GLOBAL======================*/
+
+h1,h2,h3,h4,h5,h6 {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	font-weight: bold;
+}
+
+								/*======================NAV========================*/
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: black;
+	opacity: 0.8;
+}
+
+.navbar ul li {
+	float: left;
+	font-family: 'Raleway', sans-serif
+}
+
+.navbar .login ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar ul li a {
+	display: block;
+	color: #808080;
+	text-align: center;
+	padding: 14px 16px 14px 16px;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover {
+	color: white;
+}
+
+								/*======================HERO==========================*/
+
+#indexHero {
+	background-image: url("../img/graveyard_small.jpg"); center no-repeat
+	width: 100%;
+	margin-top: -10px;
+	height: 780px;
+}
+
+#aboutHero img,
+#faqHero img,
+#contactHero img,
+#blogHero img {
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	color: white;
+	padding: 100px; 0 0 0;
+	text-align: center;
+}
+
+.search form {
+	margin: auto;
+	width: 250px;
+}
+
+								/*======================DESCRIPTION==========================*/
+
+#description {
+	width: 960px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+#description h2 {
+	text-align: center;
+}
+
+#description h3 {
+	text-align: left;
+}
+								/*======================CLASSES==========================*/
+
+#classes {
+	width: 960px;
+	margin: auto;
+}
+
+.w3-card-2 {
+	width: 400px;
+	height: 500px;
+	margin: 15px 40px;
+	padding: 15px 15px;
+}
+
+#classes img {
+	width: 100%;
+}
+
+								/*======================TEAM==========================*/
+
+#team {
+	width: 960px;
+	margin: auto;
+}
+
+#team img {
+	width: 400px;
+	margin: 15px 40px;
+	padding: 15px 15px;
+}
+
+#team h3 {
+	text-align: center;
+}
+
+#team h3, h4 {
+	padding: 15px 0px 0px 0px;
+}
+
+								/*======================FAQ==========================*/
+
+#faq {
+	width: 960px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#faq h3 {
+	text-align: left;
+}
+
+								/*======================BLOG==========================*/
+
+#blog {
+	width: 960px;
+	margin: auto;
+	border-width: 1px;
+	border: 2px solid black;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+#blog img {
+	width: 280px;
+	margin: 15px 15px;
+}
+
+#blog h3 {
+	padding: 15px 0px 0px 0px;
+	text-align: left;
+}
+
+#blog ul {
+	list-style-type: none;
+}
+
+#blog ul li {
+	float: left;
+	font-family: 'Raleway', sans-serif
+	margin: 0px 10px;
+	padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								/*======================MODAL==========================*/
+
+.modalDialog {
+	position: fixed;
+	font-family: 'Raleway', sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 500px;
+	position: relative;
+	margin: 10% auto;
+	background: white;
+}
+
+.close {
+	background: #606061;
+	color: #fff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	-moz-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+	background: #808080;
+}
+
+								/*======================FORMS==========================*/
+
+.login {
+	font-family: 'Raleway', sans-serif;
+	width: 500px;
+	padding: 30px;
+	background: #fff;
+	margin: 50px auto;
+}
+
+.login h2 {
+	background: #4d4d4d;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px 'Raleway', sans-serif;
+	height: 45px;
+}
+
+.login input[type="submit"],
+.login input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #4d4d4d;
+	color: white;
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.login input[type="submit"]:hover,
+.login input[type="button"]:hover{
+	background: #808080;
+}
+
+.search input[type="search"] {
+	color: white;
+	text-align: center;
+	background-image: url(../img/search_icon.png);
+	background-position: 5px 10px;
+	background-repeat: no-repeat;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+.search input[type="search"]:hover {
+	background: rgba(255,255,255,.08);
+}
+
+								/*======================CONTACT==========================*/
+
+#contact {
+	width: 960px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#contact p, h3 {
+	text-align: center;
+}
+
+#contact textarea {
+	border: 2px solid black;
+	width: 100%;
+	height: 200px;
+}
+
+#contact input {
+	text-align: center;
+	width: 240px;
+	margin: auto;
+	border-bottom: 1px solid #000;
+}
+
+								/*======================FOOTER==========================*/
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	background-color: black;
+	opacity: 0.8;
+}
+
+footer ul li {
+	float: left;
+	font-family: 'Raleway', sans-serif;
+}
+
+footer ul li a,
+footer ul li {
+	display: block;
+	color: #808080;
+	text-align: center;
+	padding: 14px 16px 14px 16px;
+	text-decoration: none;
+}
+
+footer ul li a:hover {
+	color: white;
+}
