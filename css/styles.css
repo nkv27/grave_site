@@ -1,14 +1,14 @@
 /*
 BATC Web Essentials
 Colors: #808080, #606061, #fff, #d4d4d4
-Font: font-family: 'Raleway', sans-serif
+Font: font-family: 'Raleway', sans-serif;
 
 */
 
 								/*=================== GENERAL =====================*/
 
 body {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
 
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar ul li {
 	float: left;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .navbar .login ul {
@@ -176,7 +176,7 @@ h1 {
 
 #blog ul li {
 	float: left;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0px 10px;
 	padding: 0px 20px;
 }
@@ -203,7 +203,7 @@ h1 {
 
 .modalDialog {
 	position: fixed;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -255,7 +255,7 @@ h1 {
 								/*======================FORMS==========================*/
 
 .login {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	width: 500px;
 	padding: 30px;
 	background: #fff;
@@ -265,7 +265,7 @@ h1 {
 .login h2 {
 	background: #4d4d4d;
 	text-transform: uppercase;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	color: white;
 	font-size: 18px;
 	font-weight: 100;
@@ -371,7 +371,7 @@ footer ul {
 
 footer ul li {
 	float: left;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 footer ul li a,
